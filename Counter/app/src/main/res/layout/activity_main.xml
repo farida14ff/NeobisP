@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@android:color/holo_blue_bright"
+    android:layout_marginBottom="0dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button_minus"
+        android:layout_width="74dp"
+        android:layout_height="72dp"
+        android:layout_marginLeft="38dp"
+        android:layout_marginTop="240dp"
+        android:onClick="decrement"
+        android:text="-"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/text_view_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0000"
+        android:textSize="50dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="250dp"/>
+
+    <Button
+        android:id="@+id/button_plus"
+        android:layout_width="74dp"
+        android:layout_height="72dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="240dp"
+        android:onClick="increment"
+        android:text="+"
+        android:textSize="30dp" />
+
+
+</LinearLayout>
