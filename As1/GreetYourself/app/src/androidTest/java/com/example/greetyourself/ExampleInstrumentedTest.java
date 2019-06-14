@@ -1,4 +1,4 @@
-package com.example.greeter;
+package com.example.greetyourself;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.greeter", appContext.getPackageName());
+        assertEquals("com.example.greetyourself", appContext.getPackageName());
     }
 }

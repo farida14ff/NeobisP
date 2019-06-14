@@ -1,4 +1,4 @@
-package com.example.greeter;
+package com.example.greetyourself;
 
 import org.junit.Test;
 
