@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditorActivity2">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="416dp"
+        android:layout_height="734dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-3dp"
+        tools:layout_editor_absoluteY="-2dp">
+
+        <EditText
+            android:id="@+id/title_editText"
+            android:layout_width="250dp"
+            android:inputType="textCapWords"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="120dp"
+            android:hint="Enter a title"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/text_editText"
+            android:layout_width="250dp"
+            android:inputType="textCapWords"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="64dp"
+            android:hint="Enter a text"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/title_editText" />
+
+        <EditText
+            android:id="@+id/date_editText"
+            android:layout_width="250dp"
+            android:inputType="textCapWords"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="68dp"
+            android:layout_marginEnd="108dp"
+            android:hint="Enter a date"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_editText" />
+
+        <Button
+            android:id="@+id/save_button"
+            android:layout_width="109dp"
+            android:layout_height="57dp"
+            android:layout_marginTop="36dp"
+            android:layout_marginEnd="80dp"
+            android:text="Save"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+             />
+
+    </android.support.constraint.ConstraintLayout>
+</android.support.constraint.ConstraintLayout>
